@@ -1,0 +1,123 @@
+.contenedor{
+	width: 1000px;
+	height: 680px;
+	margin: 0 auto;
+	position:absolute;
+	background-color: #0000FF; 
+	background: linear-gradient(fuchsia, white); /* Standard syntax */
+}
+
+.pasto{
+	background-color: #0CB11D;
+	width: 1000px;
+	height: 100px;
+	position:absolute;
+	top:600px;
+
+}
+.base{
+	background-color: #80DEEA;
+	width: 380px;
+	height: 200px;
+	position:absolute;
+	left: 50px;
+	top:400px;
+
+}
+.techo{
+	background: none;
+    width: 400px;
+    height: 0;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-bottom: 120px solid #7B241C;    
+	margin-right: 480px;
+	position: absolute;
+	top:280px;
+}
+
+.ventana1{
+	background-color: yellow;
+	border: 3px solid black;
+	height: 80px;
+	width: 80px;
+	position:absolute;
+    left: 200px;
+	bottom: 150px;
+}
+.ventana2{
+	background-color: black;
+	border: 3px solid black;
+	height: 80px;
+	width: 80px;
+	position:absolute;
+    left: 90px;
+	bottom: 150px;
+}
+.puerta{
+	background-color: #C0082F;
+	border: 1px solid black;
+	height:130px;
+	width: 80px;
+	position:absolute;
+    left: 320px;
+	bottom:80px;
+}
+.chimenea{
+	background: maroon;
+	height: 70px;
+	width: 80px;
+	position:absolute;
+    left: 270px;
+	bottom: 400px;
+}
+.humo1{
+	background-color: #AAB7B8;
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	left: 380px;
+	bottom: 560px;
+    border-radius: 50%;
+    background: #AAB7B8;
+		
+}
+.humo2{
+	background-color: #5D6D7E;
+	height: 85px;
+	width: 85px;
+	position: absolute;
+	left: 330px;
+	bottom: 510px;	
+    border-radius: 50%;
+    background: #717D7E;
+
+}
+.humo3{
+	background-color: #212F3C;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 280px;
+	bottom: 460px;	
+    border-radius: 50%;
+    background: #424949;
+}
+
+.arbol{
+    width: 326px;
+    height: 420px;
+    background-color: #9C27B0;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	position:absolute;
+	left: 650px;
+	top:100px;
+}
+.tronco{
+	height:100px;
+	width: 40px;
+	position:absolute;
+    right: 160px;
+	bottom:80px;
+	background: #784212;
+}
